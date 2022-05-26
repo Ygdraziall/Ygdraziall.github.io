@@ -1,0 +1,289 @@
+body{
+    text-align: center;
+    font-family: 'Sofia';
+    src: url(C:\Users\ygdra\OneDrive\Desktop\paginadekeyla\Harlow-Solid-Italic);
+    background-color: rgb(45, 58, 19);
+    background-image: none;
+    margin: 0px;
+}
+
+.vestidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.recuadro{
+    padding: 10px;
+    border-style: double;
+    border: 5px;
+    border-color:rgb(45, 58, 19) ;
+}
+
+h1, .titulo_bienvenida{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(45, 58, 19);
+    color: white;
+    font-family: 'Sofia';
+    font-size: 50px;
+    src: url(C:\Users\ygdra\OneDrive\Desktop\paginadekeyla\Harlow-Solid-Italic);
+    font-style: italic;
+}
+
+.como_empezamos{
+    background-color: aliceblue;
+    padding: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(45, 58, 19);
+}
+
+nav div{
+    font-size: 25px;
+    text-align: center;
+    color: green;
+    font-family: 'Sofia';
+    src: url(C:\Users\ygdra\OneDrive\Desktop\paginadekeyla\Harlow-Solid-Italic);
+    font-style: italic;
+
+}
+footer{
+    display: grid;
+    grid-area: auto;
+    font-size: 20px;
+    font-family: "Sofia";
+    color: white;
+    background-color: rgb(45, 58, 19);
+    width:100%;
+    height:5em;
+}
+
+header{
+    display: grid;
+    grid-area: auto;
+    text-align: center;
+    text-justify: auto; 
+    top: 0;
+    padding: 10px;
+}
+/*.titulo1{
+font-size: 45px;
+}
+ el punto me indica selector de CLASS y el numeral indica selectores de ID
+#titulo2{
+    font-size: 300px;
+
+}*/
+
+label{
+    width:200px;
+
+}
+
+input, select{
+    width: 500px;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+.menu-container > div{
+    background-color: rgb(45, 58, 19);
+    font-size: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    border:1px solid blue;
+    text-align: center;
+    border: 5px;
+    border-style: double;
+    background-color:  aliceblue;
+
+}
+nav{
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 850px;
+    width: 100%;
+   /* border:1px solid red; */
+
+}
+
+.form_container1{
+    display: grid;
+    grid-template-columns: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 500px;
+}
+
+/* .form_container1>div{
+    
+    display: grid;
+    grid-area: auto;
+    font-size: xx-large;
+    font-weight: bold;
+} */
+.confirmar_check{
+    width: auto;
+}
+
+.texto_confirmar{
+
+    margin: 25px;
+
+}
+
+.cuerpodepagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+    background-image: url("https://media.istockphoto.com/vectors/seamless-pattern-with-flat-line-icons-of-sewing-background-for-sewing-vector-id1220716832");
+    background-size: 10rem;
+
+}
+.medida{
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-area: auto;
+    grid: 0%;
+    font-size: 1.15vw;
+    font-family: 'Sofia';
+    src: url(C:\Users\ygdra\OneDrive\Desktop\paginadekeyla\Harlow-Solid-Italic);
+    font-style: italic; 
+    font: rgb(45, 58, 19);
+    /* margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px; */
+    background-color: aliceblue;
+    padding: 10px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(45, 58, 19);
+}
+
+.cabezal{
+    display: grid;
+    grid-template-columns: auto;
+    background-image: none;
+    margin-left: 500px;
+    margin-right: 500px ;
+    background-color: aliceblue;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(45, 58, 19);
+
+}
+.catalogo>div{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 20px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(45, 58, 19);
+    margin: 10px;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:50px;
+    padding-bottom: 100px;
+
+}
+.GraciasPorElegirnos{
+    display: grid;
+    grid-area: auto;
+    grid: 0%;
+    font-size: 1vw;
+    font-family: 'Sofia';
+    src: url(C:\Users\ygdra\OneDrive\Desktop\paginadekeyla\Harlow-Solid-Italic);
+    font-style: italic; 
+    font: rgb(45, 58, 19);
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(45, 58, 19);
+}
+
+.elegirnos{
+    display: flex;
+    font-size: xx-large;
+    margin: 25px    ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding:50px;
+    border: 10px;
+    border-style: double;
+    border-color:rgb(45, 58, 19); ;
+}
+
+
+/* Transiciones **/
+.fondo{
+   transition: background-image 1s linear;
+   cursor: pointer;
+}
+.fondo:hover{
+   background-color: #3F51B5;
+   background-image: url(posiblefondo1.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+/* .form_container1 */
+
+/* Mobile ***/
+
+
+@media (max-width: 800px) {
+    h1, .titulo_bienvenida {
+        font-size: 30px;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .medida {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .medida {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .catalogo {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalogo>div{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
